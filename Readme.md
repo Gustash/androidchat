@@ -3,21 +3,43 @@
 ## Summary ##
 I wanted to learn how to code native Android applications, so I decided to use [Realtime Framework](http://framework.realtime.co/messaging) to build a real-time group chat. It was pretty simple!
 
+
+----------
+
 You start by defining your nickname:
 
-(insert nickwindow picture)
+![](https://raw.githubusercontent.com/Gustash/androidchat/master/screenshots/NickWindow.png)
+
+
+----------
 
 Then you are brought to a window with a list of channels, to which you can connect based on your preferred theme:
 
-(insert channelselection image)
+![](https://raw.githubusercontent.com/Gustash/androidchat/master/screenshots/ChannelSelection.png)
+
+
+----------
+
 
 After selecting the channel you can start chatting with all the other users that are connected to the same group:
 
-(insert chatwindow image)
+![](https://raw.githubusercontent.com/Gustash/androidchat/master/screenshots/ChatWindow.png)
+
+
+----------
+
 
 You can even check who is currently active in that channel (using the [Realtime Framework Presence Service](http://messaging-public.realtime.co/documentation/starting-guide/presence.html)):
 
-(insert activeusers picture)
+![](https://raw.githubusercontent.com/Gustash/androidchat/master/screenshots/ActiveUsers.png)
+
+
+----------
+
+
+If the app is not running in foreground the received chat messages are added to the Notification Shade:
+
+![](https://raw.githubusercontent.com/Gustash/androidchat/master/screenshots/Notification.png)
 
 ## Building your own chat ##
 
