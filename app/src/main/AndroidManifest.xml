@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jparreira.androidchat" >
+
+    <application
+        android:name=".ChatApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NickWindow"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".ChatWindow"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:parentActivityName=".ChannelSelectWindow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jparreira.androidchat.ChannelSelectWindow" />
+        </activity>
+        <activity
+            android:name=".ActiveUsers"
+            android:label="@string/title_activity_active_users"
+            android:parentActivityName=".ChatWindow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jparreira.androidchat.ChatWindow" />
+        </activity>
+        <activity
+            android:name=".ChannelSelectWindow"
+            android:label="@string/title_activity_channel_select_window" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

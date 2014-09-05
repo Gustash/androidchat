@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ortc-android-2.1.24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ortc-android-2.1.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

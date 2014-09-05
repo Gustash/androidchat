@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-e0699e4839725ad541e17909c845f3831750402f.jar"
+        jar="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\pre-dexed\debug\classes-e44f11d9d067db51ed7142d09f78333c6b362fd8.jar"
+        jar="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\pre-dexed\debug\ortc-android-2.1.24-4946d6830104b5da9a91654a89f5edb4b45ffd3b.jar"
+        jar="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\libs\ortc-android-2.1.24.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c2942281186a3ad212424e0b1765c7522419840e"/>
+    <item
+        dex="C:\Projectos\Android\AndroidstudioProjects\androidchat\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-1f18bb90688ad4dce16f0d5c96aab2330f55c653.jar"
+        jar="C:\Projectos\Android\Android Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+
+</pre-dex-items>

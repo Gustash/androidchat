@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jparreira.androidchat.ChannelSelectWindow" >
+    <item android:id="@+id/change_nickname"
+        android:title="@string/change_nickname"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Chat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="change_nickname">Change nickname</string>
+    <string name="title_activity_chat_window">ChatWindow</string>
+    <string name="nickTextView">Enter nick:</string>
+    <string name="nickEditText">Start</string>
+    <string name="Send">Send</string>
+    <string name="title_activity_active_users">Active Users</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_channel_select_window">Channel Select</string>
+    <string name="chooseChannel">Choose a channel:</string>
+    <string name="loading">Loading</string>
+    <string name="loading_active_users">Loading active users</string>
+    <string name="active_users_option">Active Users</string>
+    <string name="choose_new_nickname">Choose a new nickname:</string>
+
+</resources>
